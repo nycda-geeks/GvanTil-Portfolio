@@ -1,12 +1,3 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: Landing Sumo - Theme 20
- * URL: http://LandingSumo.com
- * Version: 1.0
- * Exclusive Freebie for BlackTie.co
- */
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -264,7 +255,7 @@ input {
 /* Pricing Tables */
 .price-table {
 	border: 2px solid #5a5a5a;
-	border-radius: 25px;
+	border-radius: 5px;
 	padding-top: 15px;
 	padding-bottom: 25px;
 	margin: 5px; 
@@ -276,7 +267,7 @@ input {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 80px;
-	border-bottom: 2px solid #ccc;
+	/*border-bottom: 2px solid #ccc;*/
 }
 
 .price-table .p-body .features li {
@@ -295,7 +286,7 @@ input {
 }
 
 .p-body .price .sub {
-	font-size: 18px;
+	font-size: 20px;
 	color: #ccc;
 	position: relative;
 	bottom: 10px;

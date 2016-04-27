@@ -6,9 +6,12 @@
 }
 
 .container.ptb{
-	border-bottom: 2px solid black;
 	border-top:2px solid black;
 }
+
+.screenshot{
+	border-top-radius: 10px;
+} 
 
 #h i {
 	margin-left: 20px;
@@ -21,12 +24,17 @@
 	display: block;
 	max-width: 100%;
 	height: auto;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin-left: 20%;
 }
 
 p, h2,h3{
 	color:black;
+}
+
+.ion-social-github{
+	font-size: 35px;
+	color: black;
 }
 
 #mt {
