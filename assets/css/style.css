@@ -150,14 +150,14 @@ input {
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
-	padding-top: 180px;
+	padding-top: 100px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 200px;
+	min-height: 50px;
 	width: 100%;
 	color: white;
+	border-bottom: 2px solid black;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -171,22 +171,32 @@ input {
 }
 
 #h .logo {
-	top: 30px;
+	top: 15px;
 	left: 45px;
 	font-size: 18px;
 	font-weight: 900;
 	position:absolute; 
 }
 
-#h .navbar{
-	top: 0px;
-	color: black;
-	width: 150px;
+#h .menu {
+	top: 24px;
+	left: 17%;
+	font-size: 18px;
+	font-weight: 1200;
+	position:absolute; 
+}
+#h .menu2 {
+	top: 24px;
+	left: 24%;
+	font-size: 18px;
+	font-weight: 1200;
+	position:absolute; 
 }
 
+
 #h .social {
-	top: 30px;
-	right: 45px;
+	top: 35px;
+	left: 85%;
 	font-size: 20px;
 	position: absolute;
 }
@@ -208,7 +218,6 @@ input {
 #h i:hover{
 	color:#b9b9b9;
 }
-
 
 /* SEP */
 #sep {
