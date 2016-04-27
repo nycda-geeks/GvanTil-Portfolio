@@ -147,30 +147,6 @@ input {
 	background: #FDE3A7;
 }
 
-/*Buttons Configuration */
-.btn-conf {
-	border-radius: 50px;
-	margin-right: 15px;
-	font-size: 11px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	padding: 18px 28px 17px 28px;
-	}
-
-.btn-conf-2 {
-	border-radius: 50px;
-	margin-right: 15px;
-	font-size: 11px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	padding: 12px 28px 11px 28px;
-	margin-top: 20px;
-	}	
-
-.btn-green {
-	background: #03C9A9;
-	color: white
-}
 
 /* HEADER SECTION */
 #h {
@@ -179,7 +155,7 @@ input {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 200px;
 	width: 100%;
 	color: white;
 	
@@ -194,10 +170,6 @@ input {
     background-size: cover;
 }
 
-.header{
-	position: fixed;
-}
-
 #h .logo {
 	top: 30px;
 	left: 45px;
@@ -209,6 +181,7 @@ input {
 #h .navbar{
 	top: 0px;
 	color: black;
+	width: 150px;
 }
 
 #h .social {
@@ -232,11 +205,10 @@ input {
 	font-size: 40px;
 }
 
-/* Store Links */
-.store img {
-	margin-right: 10px;
-	margin-top: 20px;
+#h i:hover{
+	color:#b9b9b9;
 }
+
 
 /* SEP */
 #sep {
@@ -275,6 +247,10 @@ input {
 }
 
 /* Pricing Tables */
+#work{
+	margin-bottom: 5%;
+}
+
 .price-table {
 	border: 2px solid #5a5a5a;
 	border-radius: 5px;
@@ -328,44 +304,11 @@ ul {
 	list-style-type: none;
 }
 
-/* SPONSORS */
-#g {
-	background: #f2f2f2;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-.sponsor img {
-	max-width: 140px;
-	max-height: 60px;
-	vertical-align: middle;
-}
-
-.sponsor .col-sm-2 {
-	height: 80px;
-	line-height: 80px;
-}
-
-/* GREEN SECTION - TESTIMONIAL */
-
-#green {
-	padding-top: 90px;
-	padding-bottom: 60px;
-	min-height: 300px;
-	background: #03C9A9;
-	color: white;
-}
-
-#green tgr {
-	font-weight: 700;
-	letter-spacing: 1px;
-}
-
 /* FOOTER */
 #f {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #2f2f2f;
+	background: white;
 	color: white;
 }
 
@@ -380,9 +323,9 @@ ul {
 }
 
 #f a {
-	color: #b9b9b9;
+	color: black ;
 }
 
 #f a:hover {
-	color: #03C9A9;
+	color: #b9b9b9;
 }
