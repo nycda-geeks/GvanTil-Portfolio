@@ -13,8 +13,10 @@
 	border-top-radius: 10px;
 } 
 
+
+
 #h i {
-	margin-left: 20px;
+	margin-left: 150px;
 	height:20px;
 	color:black;
 	font-size: 30px;
@@ -25,7 +27,7 @@
 	max-width: 100%;
 	height: auto;
 	border-radius: 5px;
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 p, h2,h3{
@@ -39,8 +41,4 @@ p, h2,h3{
 
 #mt {
 	color:black;
-}
-
-#f{
-	background-color:white;
 }
