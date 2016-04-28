@@ -42,7 +42,7 @@ body {
 }
 
 .container.ptb{
-	border-top:2px solid black;
+	border-bottom:2px solid black;
 }
 
 .alignleft { float: left; }
@@ -217,6 +217,10 @@ input {
 
 #h i:hover{
 	color:#b9b9b9;
+}
+
+.photoslider{
+	width:250px;
 }
 
 /* SEP */
