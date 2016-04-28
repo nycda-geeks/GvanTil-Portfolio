@@ -45,6 +45,27 @@ body {
 	border-bottom:2px solid black;
 }
 
+#green {
+	padding-top: 45px;
+	padding-bottom: 45px;
+	min-height: 100%;
+	min-width: 100%;
+	background: white;
+	color: white;
+	border-bottom: 2px solid black;
+}
+
+#carousel-inner{
+	height: 100%;
+	width: 100%;
+}
+
+#green tgr {
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+
 .alignleft { float: left; }
 .alignright { float: right; }
 .aligncenter {
